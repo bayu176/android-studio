@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Mencari Luas Bangun Datar</string>
+    <string name="judul">Bangun Datar</string>
+    <string name="deskripsi">Aplikasi Penghitung Luas Bangun Datar</string>
+    <string name="login">LOGIN</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="lupa_pw">Forgot Password ?</string>
+    <string name="rumus_luas_persegi">Rumus Luas Persegi L = s x s</string>
+    <string name="hitung">Hitung</string>
+    <string name="rumus_luas_persegi_panjang">Rumus Luas persegi Panjang L = p x l</string>
+    <string name="rumus_luas_jajar_genjang">Rumus Luas Jajar genjang L = a x t</string>
+    <string name="_0">0</string>
+    <string name="panjang">Panjang</string>
+    <string name="lebar">Lebar</string>
+    <string name="hasil">Hasil = ______</string>
+    <string name="masukkan_sisi">Masukkan Sisi</string>
+    <string name="alas">Alas</string>
+    <string name="tinggi">Tinggi</string>
+</resources>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".menu_aplikasi">
+
+    <ImageView
+        android:id="@+id/bahanatas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-4dp"
+        android:layout_marginTop="-73dp"
+        android:layout_marginEnd="-1dp"
+        app:srcCompat="@drawable/bahanatas"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/roket"
+        android:layout_width="44dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="12dp"
+        app:srcCompat="@drawable/roket"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/deskripsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="83dp"
+        android:text="@string/deskripsi"
+        android:textColor="@color/white"
+        android:fontFamily="@font/pbold"
+        android:textSize="14sp"/>
+
+    <ScrollView
+        android:layout_width="379dp"
+        android:layout_height="375dp"
+        android:layout_below="@+id/bahanatas"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-15dp"
+        android:layout_marginTop="-13dp"
+        android:layout_marginEnd="-3dp"
+        android:layout_marginBottom="-375dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="283dp"
+                android:layout_height="102dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginBottom="40dp"
+                android:src="@drawable/bg_card"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/rumus_persegi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="-130dp"
+                android:layout_marginBottom="40dp"
+                app:srcCompat="@drawable/rumus_persegi"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="145sp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="160dp"
+                android:layout_marginTop="-110dp"
+                android:layout_marginBottom="50dp"
+                android:fontFamily="@font/poppinsmedium"
+                android:text="@string/rumus_luas_persegi" />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_marginStart="180dp"
+                android:layout_marginTop="-55dp"
+                android:layout_marginBottom="40dp"
+                android:text="@string/hitung" />
+
+
+            <ImageView
+                android:layout_width="283dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="40dp"
+                android:src="@drawable/bg_card"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/img_persegi_panjang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="-120dp"
+                android:layout_marginBottom="40dp"
+                app:srcCompat="@drawable/persegi_panjang"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/luas_persegi_panjang"
+                android:layout_width="145sp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="170dp"
+                android:layout_marginTop="-100dp"
+                android:layout_marginBottom="50dp"
+                android:fontFamily="@font/poppinsmedium"
+                android:text="@string/rumus_luas_persegi_panjang" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_marginStart="180dp"
+                android:layout_marginTop="-50dp"
+                android:layout_marginBottom="40dp"
+                android:text="@string/hitung" />
+
+            <ImageView
+                android:layout_width="283dp"
+                android:layout_height="102dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/bg_card"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/img_jajar_genjang"
+                android:layout_width="98dp"
+                android:layout_height="63dp"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="-100dp"
+                app:srcCompat="@drawable/jajar_genjang"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/luas_jajar_genjang"
+                android:layout_width="145sp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="180dp"
+                android:layout_marginTop="-70dp"
+                android:layout_marginBottom="50dp"
+                android:fontFamily="@font/poppinsmedium"
+                android:text="@string/rumus_luas_jajar_genjang" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_marginStart="180dp"
+                android:layout_marginTop="-50dp"
+                android:layout_marginBottom="40dp"
+                android:text="@string/hitung" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/bahanbawah"
+        android:layout_width="wrap_content"
+        android:layout_height="276dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="-116dp"
+        app:srcCompat="@drawable/rectangel"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="92dp"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="@font/pbold"
+        android:text="@string/judul"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="49dp"
+        android:layout_height="47dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="153dp"
+        android:layout_marginBottom="44dp"
+        app:srcCompat="@drawable/roket"
+        tools:ignore="ContentDescription" />
+</RelativeLayout>
